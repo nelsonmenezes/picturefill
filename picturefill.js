@@ -1,5 +1,3 @@
-// From fork at https://github.com/nelsonmenezes/picturefill
-
 /*! Picturefill - Responsive Images that work today. (and mimic the proposed Picture element with divs). Author: Scott Jehl, Filament Group, 2012 | License: MIT/GPLv2 */
 
 (function(w) {
@@ -124,7 +122,7 @@
 						}
 						else {
 
-							w.removeEvent("onresize", resizeHandler)
+							w.detachEvent("onresize", resizeHandler)
 						}
 
 						return;
